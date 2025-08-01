@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header start */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    margin-bottom: 85px;
+}
+/* menu start */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu-content{
+
+}
+.menu-content h4{
+    font-family: "Work Sans", sans-serif;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.menu-btn{
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   text-align: center;
+   align-items: center;
+}
+.btn a{
+   font-family: "Work Sans", sans-serif;
+   text-decoration: none;
+   color: #424242;
+   font-size: 18px;
+   font-weight: 500;
+}
+/* menu start */
+/* banner start */
+.b-content{
+   font-family: "Work Sans", sans-serif;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.b-content h4{
+   color: #131313;
+   font-size: 64px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.b-content p{
+   color: #727272;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 33px;
+}
+.b-content a{
+   background: #FF900E;
+   color: #fff;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 20px 25px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.b-img{
+    width: 70%;
+    margin: auto;
+    padding: 45px;
+
+}
+.b-img img{
+    width:  100%;
+}
+/* banner end */
+/* header end */
+/* features start */
+.features{
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    gap: 70px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.All-img{
+    
+}
+.f-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    border-radius:8px;
+}
+.img1{
+
+}
+.img1 img{
+    
+}
+.f-content{
+    font-family: "Work Sans", sans-serif;
+}
+.f-content h4{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.f-content span{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.f-content p{
+   color: #727272;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+.f-content a{
+   background: #FF900E;
+   color: #fff;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 20px 25px;
+   font-size: 20px;
+   font-weight: 600;
+}
+/* features end */
