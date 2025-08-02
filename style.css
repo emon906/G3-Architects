@@ -215,3 +215,20 @@ header{
 
 }
 /* brand end */
+/* footer start */
+footer{
+   margin-bottom: 120px;
+   background: #FFF4E7;
+   margin-left: 200px;
+   margin-right: 200px;
+   padding: 38px 400px;
+   border-radius: 8px;
+}
+footer p{
+   font-family: "Work Sans", sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+    text-align: center;
+
+}
+/* footer end */
