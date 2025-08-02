@@ -88,6 +88,7 @@ header{
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 120px;
 }
 .All-img{
     
@@ -95,7 +96,7 @@ header{
 .f-img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap:24px;
+    gap:15px;
     border-radius:8px;
 }
 .img1{
@@ -135,3 +136,82 @@ header{
    font-weight: 600;
 }
 /* features end */
+/* facts start */
+.some-content{
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    
+}
+.some-content h4{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.some-content p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.some-box{
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 120px;
+
+}
+.s-box{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px 40px;
+   
+}
+.s-box img{
+    margin-bottom: 8px;
+    
+}
+.s-box h4{
+    color: #727272;
+    font-size: 30px;
+    font-weight: 600;
+}
+.s-box h5{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* facts end */
+/* brand start */
+.sponsor{
+   font-family: "Work Sans", sans-serif;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.sponsor h4{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsor p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 120px;
+}
+.brand-img{
+
+}
+/* brand end */
