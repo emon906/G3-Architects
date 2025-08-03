@@ -4,6 +4,8 @@
 .menu{
     margin-left: 30px;
     margin-right: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 .menu-content h4{
     font-size: 18px;
@@ -16,8 +18,30 @@
     font-size: 16px;
 }
 /* menu end */
+/* banner start */
+.banner{
+  
 }
-
+.b-content{
+    margin-bottom: 15px;
+}
+.b-content h4{
+    font-size: 28px;
+}
+.b-content p{
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.b-content a{
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.b-img{
+    padding: 35px;
+}
+/* banner end */
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* menu start */
@@ -54,6 +78,26 @@
     gap: 30px;
 } 
 /* menu end */
+/* banner start */
+.b-content{
+    margin-bottom: 10px;
+}
+.b-content h4{
+    font-size: 30px;
+}
+.b-content p{
+    margin-bottom: 35px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.b-content a{
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.b-img{
+    padding: 35px;
+}
+/* banner end */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -72,7 +116,21 @@
     gap: 30px;
 }
 /* menu end */
-
+/* banner start */
+.b-content{
+    margin-bottom: 25px;
+}
+.b-content h4{
+    font-size: 50px;
+}
+.b-content a{
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.b-img{
+    padding: 35px;
+}
+/* banner end */
 
 }
 
