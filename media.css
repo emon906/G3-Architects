@@ -20,7 +20,7 @@
 /* menu end */
 /* banner start */
 .banner{
-  
+    flex-direction: column-reverse;
 }
 .b-content{
     margin-bottom: 15px;
@@ -41,6 +41,25 @@
     padding: 35px;
 }
 /* banner end */
+* features start */
+.features{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.f-img{
+  
+}
+
+.f-content h4{
+    margin-bottom: 17px;
+}
+.f-content p{
+    margin-bottom: 40px;
+}
+
+
+/* features end */
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -60,6 +79,31 @@
     font-size: 16px;
 }
 /* menu end */
+/* banner start */
+.banner{
+    flex-direction: column-reverse;
+    
+}
+/* banner end */
+/* features start */
+.features{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.f-img{
+  
+}
+
+.f-content h4{
+    margin-bottom: 17px;
+}
+.f-content p{
+    margin-bottom: 40px;
+}
+
+
+/* features end */
 }
 
  /* Medium devices (tablets, 768px and up) */ 
@@ -68,6 +112,7 @@
 .menu{
     margin-left: 50px;
     margin-right: 50px;
+    
     
 }
 .menu-content h4{
@@ -79,6 +124,11 @@
 } 
 /* menu end */
 /* banner start */
+.banner{
+    flex-direction: column-reverse;
+    
+    
+}
 .b-content{
     margin-bottom: 10px;
 }
@@ -98,6 +148,24 @@
     padding: 35px;
 }
 /* banner end */
+/* features start */
+.features{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.f-img{
+    
+}
+.f-content h4{
+    margin-bottom: 17px;
+}
+.f-content p{
+    margin-bottom: 40px;
+}
+
+
+/* features end */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -117,6 +185,10 @@
 }
 /* menu end */
 /* banner start */
+.banner{
+    flex-direction: column-reverse;
+    
+}
 .b-content{
     margin-bottom: 25px;
 }
@@ -131,16 +203,47 @@
     padding: 35px;
 }
 /* banner end */
+/* features start */
+.features{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.f-content p{
+    margin-bottom: 40px;
+}
 
+
+/* features end */
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px){
- 
+/* banner start */
+ .banner{
+    flex-direction: column-reverse;
+ }
+/* banner end */
 }
  /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
- 
- 
+ .banner{
+    flex-direction: column-reverse;
+ }
+ /* features start */
+.features{
+    flex-direction: column;
+    text-align: center;
+}
+.All-img{
+
+}
+.f-img{
+    width: 50%;
+}
+.img1{
+
+}
+/* features end */
 
 }

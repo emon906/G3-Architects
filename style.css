@@ -43,8 +43,7 @@ header{
 /* menu start */
 /* banner start */
 .banner{
-    display: flex;
-    flex-direction:column-reverse;
+    display: flex;    
     margin-bottom: 66px;
 }
 .b-content{
@@ -87,7 +86,6 @@ header{
 /* features start */
 .features{
     display: flex;
-    justify-content: center;
     background: #FFF;
     gap: 70px;
     align-items: center;
@@ -105,10 +103,9 @@ header{
     border-radius:8px;
 }
 .img1{
-
+    width: 60%;
 }
 .img1 img{
-    
 }
 .f-content{
     font-family: "Work Sans", sans-serif;
