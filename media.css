@@ -5,7 +5,7 @@
     margin-left: 30px;
     margin-right: 30px;
     padding: 10px;
-    margin-bottom: 30px;
+   
 }
 .menu-content h4{
     font-size: 18px;
@@ -21,6 +21,7 @@
 /* banner start */
 .banner{
     flex-direction: column-reverse;
+    padding: 25px;
 }
 .b-content{
     margin-bottom: 15px;
@@ -41,7 +42,7 @@
     padding: 35px;
 }
 /* banner end */
-* features start */
+ /* features start */ 
 .features{
     flex-direction: column;
     text-align: center;
@@ -50,12 +51,18 @@
 .f-img{
   
 }
-
+.f-content{
+    width: 100%;
+    text-align: center;
+}
 .f-content h4{
     margin-bottom: 17px;
 }
 .f-content p{
     margin-bottom: 40px;
+}
+.f-content a{
+
 }
 
 
@@ -92,9 +99,15 @@
     gap: 30px;
 }
 .f-img{
-  
+   grid-template-columns: repeat(1,1fr);
 }
-
+.img1{
+    
+    
+}
+.f-content{
+    width: 100%;
+}
 .f-content h4{
     margin-bottom: 17px;
 }
@@ -126,8 +139,7 @@
 /* banner start */
 .banner{
     flex-direction: column-reverse;
-    
-    
+    padding: 20px;
 }
 .b-content{
     margin-bottom: 10px;
@@ -141,7 +153,7 @@
     margin-right: 90px;
 }
 .b-content a{
-    padding: 20px 20px;
+    padding: 15px 15px;
     font-size: 17px;
 }
 .b-img{
@@ -156,6 +168,11 @@
 }
 .f-img{
     
+}
+.img1{
+}   
+.f-content{
+   width: 100%;
 }
 .f-content h4{
     margin-bottom: 17px;
@@ -186,7 +203,7 @@
 /* menu end */
 /* banner start */
 .banner{
-    flex-direction: column-reverse;
+    flex-direction: column;
     
 }
 .b-content{
@@ -205,10 +222,20 @@
 /* banner end */
 /* features start */
 .features{
-    flex-direction: column;
     text-align: center;
     gap: 30px;
 }
+.f-img{
+    grid-template-columns: repeat(2,1fr);
+  
+}
+.img1{
+    
+}
+.f-content{
+    width: 100%;
+}
+
 .f-content p{
     margin-bottom: 40px;
 }
@@ -221,28 +248,31 @@
 @media (min-width: 1200px) and (max-width:1399.98px){
 /* banner start */
  .banner{
-    flex-direction: column-reverse;
+    flex-direction: column;
  }
 /* banner end */
 }
  /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
  .banner{
-    flex-direction: column-reverse;
+    flex-direction: column;
  }
  /* features start */
 .features{
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
 }
 .All-img{
 
 }
 .f-img{
-    width: 50%;
+    width: 40%;
+    grid-template-columns: repeat(2,1fr);
 }
 .img1{
 
+}
+.f-content{
+    width: 60%;
 }
 /* features end */
 

@@ -98,17 +98,19 @@ header{
 }
 .f-img{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+   
     gap:15px;
     border-radius:8px;
 }
 .img1{
-    width: 60%;
+    width: 50%;
 }
 .img1 img{
+   
 }
 .f-content{
     font-family: "Work Sans", sans-serif;
+    width: 50%;
 }
 .f-content h4{
     color: #727272;
